@@ -1,0 +1,14 @@
+<?php
+declare (strict_types = 1);
+
+namespace {%namespace%};
+
+use frame\Model;
+
+/**
+ * @mixin \frame\Model
+ */
+class {%className%} extends Model
+{
+    //
+}
