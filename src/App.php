@@ -172,7 +172,6 @@ class App extends Container
      */
     public function __construct(string $rootPath = '')
     {
-//        $this->framePath = ROOT_PATH . DIRECTORY_SEPARATOR;
         $this->framePath = dirname(__DIR__) . DIRECTORY_SEPARATOR;
         $this->rootPath = $rootPath ? rtrim($rootPath, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR : $this->getDefaultRootPath();
         $this->appPath = $this->rootPath . 'app' . DIRECTORY_SEPARATOR;
@@ -561,7 +560,7 @@ class App extends Container
             include_once $appPath . 'common.php';
         }
 
-        include_once $this->framePath . 'vendor/helper.php';
+        include_once $this->rootPath . 'vendor/helper.php';
 
         $configPath = $this->getConfigPath();
 
@@ -682,7 +681,9 @@ class App extends Container
      */
     protected function getDefaultRootPath(): string
     {
-        return $this->framePath;
+        $path = dirname(dirname(dirname($this->framePath)));
+
+        return $path . DIRECTORY_SEPARATOR;
     }
 
 }
