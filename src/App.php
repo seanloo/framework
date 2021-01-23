@@ -560,7 +560,7 @@ class App extends Container
             include_once $appPath . 'common.php';
         }
 
-        include_once $this->rootPath . 'vendor/helper.php';
+        include_once $this->framePath . 'helper.php';
 
         $configPath = $this->getConfigPath();
 
