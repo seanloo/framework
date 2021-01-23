@@ -156,7 +156,7 @@ class App extends Container
         'session' => Session::class,
         'validate' => Validate::class,
         'view' => View::class,
-//        'filesystem' => Filesystem::class,
+        'filesystem' => Filesystem::class,
         'frame\DbManager' => Db::class,
         'frame\LogManager' => Log::class,
         'frame\CacheManager' => Cache::class,
