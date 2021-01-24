@@ -479,7 +479,7 @@ class App extends Container
         // 加载框架默认语言包
         $langSet = $this->lang->defaultLangSet();
 
-        $this->lang->load($this->framePath . 'common' . DIRECTORY_SEPARATOR . 'lang' . DIRECTORY_SEPARATOR . $langSet . DIRECTORY_SEPARATOR . '/templates.php');
+        $this->lang->load($this->rootPath . 'common' . DIRECTORY_SEPARATOR . 'lang' . DIRECTORY_SEPARATOR . $langSet . DIRECTORY_SEPARATOR . '/templates.php');
 
         // 加载应用默认语言包
         $this->loadLangPack($langSet);

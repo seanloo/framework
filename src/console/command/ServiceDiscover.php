@@ -27,8 +27,8 @@ class ServiceDiscover extends Command
 
             $services = [];
             foreach ($packages as $package) {
-                if (!empty($package['extra']['think']['services'])) {
-                    $services = array_merge($services, (array) $package['extra']['think']['services']);
+                if (!empty($package['extra']['frame']['services'])) {
+                    $services = array_merge($services, (array) $package['extra']['frame']['services']);
                 }
             }
 
