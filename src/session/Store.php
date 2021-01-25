@@ -1,9 +1,9 @@
 <?php
 
-namespace frame\session;
+namespace SeanPhp\session;
 
-use frame\contract\SessionHandlerInterface;
-use frame\helper\Arr;
+use SeanPhp\contract\SessionHandlerInterface;
+use SeanPhp\helper\Arr;
 
 class Store
 {

@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
+use SeanPhp\Facade;
 
 /**
- * @see \frame\Config
- * @package frame\facade
- * @mixin \frame\Config
+ * @see \SeanPhp\Config
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Config
  * @method static array load(string $file, string $name = '') 加载配置文件（多种格式）
  * @method static bool has(string $name) 检测配置是否存在
  * @method static mixed get(string $name = null, mixed $default = null) 获取配置参数 为空则获取所有配置

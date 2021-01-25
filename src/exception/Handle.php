@@ -2,15 +2,15 @@
 
 declare (strict_types = 1);
 
-namespace frame\exception;
+namespace SeanPhp\exception;
 
 use Exception;
-use frame\App;
-use frame\console\Output;
-//use frame\db\exception\DataNotFoundException;
-//use frame\db\exception\ModelNotFoundException;
-use frame\Request;
-use frame\Response;
+use SeanPhp\App;
+use SeanPhp\console\Output;
+//use SeanPhp\db\exception\DataNotFoundException;
+//use SeanPhp\db\exception\ModelNotFoundException;
+use SeanPhp\Request;
+use SeanPhp\Response;
 use Throwable;
 
 /**
@@ -303,7 +303,7 @@ class Handle
     {
         $data = [];
 
-        if ($exception instanceof \frame\Exception) {
+        if ($exception instanceof \SeanPhp\Exception) {
             $data = $exception->getData();
         }
 

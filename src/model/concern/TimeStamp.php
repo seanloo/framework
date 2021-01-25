@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\model\concern;
+namespace SeanPhp\model\concern;
 
 use DateTime;
 

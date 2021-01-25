@@ -2,19 +2,19 @@
 
 declare (strict_types = 1);
 
-namespace frame\filesystem;
+namespace SeanPhp\filesystem;
 
 use League\Flysystem\AdapterInterface;
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Cached\CachedAdapter;
 use League\Flysystem\Cached\Storage\Memory as MemoryStore;
 use League\Flysystem\Filesystem;
-use frame\Cache;
-use frame\File;
+use SeanPhp\Cache;
+use SeanPhp\File;
 
 /**
  * Class Driver
- * @package frame\filesystem
+ * @package SeanPhp\filesystem
  * @mixin Filesystem
  */
 abstract class Driver

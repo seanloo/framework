@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
 use Closure;
 use PDO;
-use frame\db\exception\DbException as Exception;
+use SeanPhp\db\exception\DbException as Exception;
 
 /**
  * Db Builder

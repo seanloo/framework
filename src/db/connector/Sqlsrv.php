@@ -1,9 +1,9 @@
 <?php
 
-namespace frame\db\connector;
+namespace SeanPhp\db\connector;
 
 use PDO;
-use frame\db\PDOConnection;
+use SeanPhp\db\PDOConnection;
 
 /**
  * Sqlsrv数据库驱动

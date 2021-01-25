@@ -1,7 +1,7 @@
 <?php
 
 
-namespace frame\console\output\formatter;
+namespace SeanPhp\console\output\formatter;
 
 class Stack
 {

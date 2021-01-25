@@ -2,16 +2,16 @@
 
 declare (strict_types=1);
 
-namespace frame\route\dispatch;
+namespace SeanPhp\route\dispatch;
 
 use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
-use frame\App;
-use frame\exception\ClassNotFoundException;
-use frame\exception\HttpException;
-use frame\helper\Str;
-use frame\route\Dispatch;
+use SeanPhp\App;
+use SeanPhp\exception\ClassNotFoundException;
+use SeanPhp\exception\HttpException;
+use SeanPhp\helper\Str;
+use SeanPhp\route\Dispatch;
 
 /**
  * Controller Dispatcher

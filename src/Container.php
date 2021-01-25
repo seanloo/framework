@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use ArrayAccess;
 use ArrayIterator;
@@ -16,9 +16,9 @@ use ReflectionException;
 use ReflectionFunction;
 use ReflectionFunctionAbstract;
 use ReflectionMethod;
-use frame\exception\ClassNotFoundException;
-use frame\exception\FuncNotFoundException;
-use frame\helper\Str;
+use SeanPhp\exception\ClassNotFoundException;
+use SeanPhp\exception\FuncNotFoundException;
+use SeanPhp\helper\Str;
 
 /**
  * 容器管理类 支持PSR-11

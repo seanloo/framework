@@ -2,26 +2,26 @@
 
 declare (strict_types = 1);
 
-namespace frame\model\concern;
+namespace SeanPhp\model\concern;
 
 use Closure;
-use frame\Collection;
-use frame\db\BaseQuery as Query;
-use frame\db\exception\DbException as Exception;
-use frame\helper\Str;
-use frame\Model;
-use frame\model\Relation;
-use frame\model\relation\BelongsTo;
-use frame\model\relation\BelongsToMany;
-use frame\model\relation\HasMany;
-use frame\model\relation\HasManyThrough;
-use frame\model\relation\HasOne;
-use frame\model\relation\HasOneThrough;
-use frame\model\relation\MorphMany;
-use frame\model\relation\MorphOne;
-use frame\model\relation\MorphTo;
-use frame\model\relation\MorphToMany;
-use frame\model\relation\OneToOne;
+use SeanPhp\Collection;
+use SeanPhp\db\BaseQuery as Query;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\model\Relation;
+use SeanPhp\model\relation\BelongsTo;
+use SeanPhp\model\relation\BelongsToMany;
+use SeanPhp\model\relation\HasMany;
+use SeanPhp\model\relation\HasManyThrough;
+use SeanPhp\model\relation\HasOne;
+use SeanPhp\model\relation\HasOneThrough;
+use SeanPhp\model\relation\MorphMany;
+use SeanPhp\model\relation\MorphOne;
+use SeanPhp\model\relation\MorphTo;
+use SeanPhp\model\relation\MorphToMany;
+use SeanPhp\model\relation\OneToOne;
 
 /**
  * 模型关联处理
@@ -712,7 +712,7 @@ trait RelationShip
     {
         $relation = Str::camel($attr);
 
-        if (method_exists($this, $relation) && !method_exists('frame\Model', $relation)) {
+        if (method_exists($this, $relation) && !method_exists('SeanPhp\Model', $relation)) {
             return $relation;
         }
 

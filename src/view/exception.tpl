@@ -296,7 +296,7 @@ if (!function_exists('echo_value')) {
     </style>
 </head>
 <body>
-    <?php if (\frame\facade\App::isDebug()) { ?>
+    <?php if (\SeanPhp\facade\App::isDebug()) { ?>
         <?php foreach ($traces as $index => $trace) { ?>
     <div class="exception">
         <div class="message">
@@ -393,7 +393,7 @@ if (!function_exists('echo_value')) {
     </div>
     <?php } ?>
 
-    <?php if (\frame\facade\App::isDebug()) { ?>
+    <?php if (\SeanPhp\facade\App::isDebug()) { ?>
     <script>
         function $(selector, node){
             var elements;

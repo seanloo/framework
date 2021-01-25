@@ -2,23 +2,23 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use Psr\SimpleCache\CacheInterface;
-use frame\cache\Driver;
-use frame\cache\TagSet;
-use frame\exception\InvalidArgumentException;
-use frame\helper\Arr;
+use SeanPhp\cache\Driver;
+use SeanPhp\cache\TagSet;
+use SeanPhp\exception\InvalidArgumentException;
+use SeanPhp\helper\Arr;
 
 /**
  * 缓存管理类
  * @mixin Driver
- * @mixin \frame\cache\driver\File
+ * @mixin \SeanPhp\cache\driver\File
  */
 class Cache extends Manager implements CacheInterface
 {
 
-    protected $namespace = '\\frame\\cache\\driver\\';
+    protected $namespace = '\\SeanPhp\\cache\\driver\\';
 
     /**
      * 默认驱动

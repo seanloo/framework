@@ -2,16 +2,16 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use ArrayAccess;
 use ArrayIterator;
 use Countable;
 use IteratorAggregate;
 use JsonSerializable;
-use frame\contract\Arrayable;
-use frame\contract\Jsonable;
-use frame\helper\Arr;
+use SeanPhp\contract\Arrayable;
+use SeanPhp\contract\Jsonable;
+use SeanPhp\helper\Arr;
 
 /**
  * 数据集管理类

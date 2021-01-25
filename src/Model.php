@@ -2,14 +2,14 @@
 
 declare (strict_types=1);
 
-namespace frame;
+namespace SeanPhp;
 
 use ArrayAccess;
 use Closure;
 use JsonSerializable;
-use frame\contract\Arrayable;
-use frame\contract\Jsonable;
-use frame\db\BaseQuery as Query;
+use SeanPhp\contract\Arrayable;
+use SeanPhp\contract\Jsonable;
+use SeanPhp\db\BaseQuery as Query;
 
 /**
  * Class Model

@@ -2,12 +2,12 @@
 
 declare (strict_types=1);
 
-namespace frame\route\dispatch;
+namespace SeanPhp\route\dispatch;
 
-use frame\exception\HttpException;
-use frame\helper\Str;
-use frame\Request;
-use frame\route\Rule;
+use SeanPhp\exception\HttpException;
+use SeanPhp\helper\Str;
+use SeanPhp\Request;
+use SeanPhp\route\Rule;
 
 /**
  * Url Dispatcher

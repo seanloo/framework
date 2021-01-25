@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\concern;
+namespace SeanPhp\db\concern;
 
 /**
  * 时间查询支持

@@ -2,27 +2,27 @@
 
 declare (strict_types = 1);
 
-namespace frame\console;
+namespace SeanPhp\console;
 
 use Exception;
-use frame\console\output\Ask;
-use frame\console\output\Descriptor;
-use frame\console\output\driver\Buffer;
-use frame\console\output\driver\Console;
-use frame\console\output\driver\Nothing;
-use frame\console\output\Question;
-use frame\console\output\question\Choice;
-use frame\console\output\question\Confirmation;
+use SeanPhp\console\output\Ask;
+use SeanPhp\console\output\Descriptor;
+use SeanPhp\console\output\driver\Buffer;
+use SeanPhp\console\output\driver\Console;
+use SeanPhp\console\output\driver\Nothing;
+use SeanPhp\console\output\Question;
+use SeanPhp\console\output\question\Choice;
+use SeanPhp\console\output\question\Confirmation;
 use Throwable;
 
 /**
  * Class Output
- * @package frame\console
+ * @package SeanPhp\console
  *
- * @see     \frame\console\output\driver\Console::setDecorated
+ * @see     \SeanPhp\console\output\driver\Console::setDecorated
  * @method void setDecorated($decorated)
  *
- * @see     \frame\console\output\driver\Buffer::fetch
+ * @see     \SeanPhp\console\output\driver\Buffer::fetch
  * @method string fetch()
  *
  * @method void info($message)
@@ -66,7 +66,7 @@ class Output
 
     public function __construct($driver = 'console')
     {
-        $class = '\\frame\\console\\output\\driver\\' . ucwords($driver);
+        $class = '\\SeanPhp\\console\\output\\driver\\' . ucwords($driver);
 
         $this->handle = new $class($this);
     }

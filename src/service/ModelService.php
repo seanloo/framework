@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\service;
+namespace SeanPhp\service;
 
-use frame\Model;
-use frame\Service;
+use SeanPhp\Model;
+use SeanPhp\Service;
 
 /**
  * 模型服务类

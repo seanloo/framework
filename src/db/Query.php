@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
 use PDOStatement;
-use frame\helper\Str;
+use SeanPhp\helper\Str;
 
 /**
  * PDO数据查询类

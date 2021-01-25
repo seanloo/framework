@@ -1,10 +1,10 @@
 <?php
 
-namespace frame\model\relation;
+namespace SeanPhp\model\relation;
 
 use Closure;
-use frame\helper\Str;
-use frame\Model;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
 
 /**
  * 远程一对一关联类

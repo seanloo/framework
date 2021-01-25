@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame\model\concern;
+namespace SeanPhp\model\concern;
 
-use frame\Collection;
-use frame\db\exception\DbException as Exception;
-use frame\helper\Str;
-use frame\Model;
-use frame\model\Collection as ModelCollection;
-use frame\model\relation\OneToOne;
+use SeanPhp\Collection;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\model\Collection as ModelCollection;
+use SeanPhp\model\relation\OneToOne;
 
 /**
  * 模型数据转换处理

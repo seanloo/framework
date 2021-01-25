@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\concern;
+namespace SeanPhp\db\concern;
 
 use Closure;
-use frame\helper\Str;
-use frame\Model;
-use frame\model\Collection as ModelCollection;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\model\Collection as ModelCollection;
 
 /**
  * 模型及关联查询

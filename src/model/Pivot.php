@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\model;
+namespace SeanPhp\model;
 
-use frame\Model;
+use SeanPhp\Model;
 
 /**
  * 多对多中间表模型类

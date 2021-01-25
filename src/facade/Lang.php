@@ -2,22 +2,22 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
+use SeanPhp\Facade;
 
 /**
- * @see \frame\Lang
- * @package frame\facade
- * @mixin \frame\Lang
+ * @see \SeanPhp\Lang
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Lang
  * @method static void setLangSet(string $lang) 设置当前语言
  * @method static string getLangSet() 获取当前语言
  * @method static string defaultLangSet() 获取默认语言
  * @method static array load(string|array $file, string $range = '') 加载语言定义(不区分大小写)
  * @method static bool has(string|null $name, string $range = '') 判断是否存在语言定义(不区分大小写)
  * @method static mixed get(string|null $name = null, array $vars = [], string $range = '') 获取语言定义(不区分大小写)
- * @method static string detect(\frame\Request $request) 自动侦测设置获取语言选择
- * @method static void saveToCookie(\frame\Cookie $cookie) 保存当前语言到Cookie
+ * @method static string detect(\SeanPhp\Request $request) 自动侦测设置获取语言选择
+ * @method static void saveToCookie(\SeanPhp\Cookie $cookie) 保存当前语言到Cookie
  */
 class Lang extends Facade
 {

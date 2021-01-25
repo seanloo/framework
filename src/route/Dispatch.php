@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace frame\route;
+namespace SeanPhp\route;
 
-use frame\App;
-use frame\Container;
-use frame\Request;
-use frame\Response;
-use frame\Validate;
+use SeanPhp\App;
+use SeanPhp\Container;
+use SeanPhp\Request;
+use SeanPhp\Response;
+use SeanPhp\Validate;
 
 /**
  * 路由调度基础类
@@ -17,7 +17,7 @@ abstract class Dispatch
 {
     /**
      * 应用对象
-     * @var \frame\App
+     * @var \SeanPhp\App
      */
     protected $app;
 
@@ -187,7 +187,7 @@ abstract class Dispatch
      * @access protected
      * @param array $option
      * @return void
-     * @throws \frame\exception\ValidateException
+     * @throws \SeanPhp\exception\ValidateException
      */
     protected function autoValidate(array $option): void
     {

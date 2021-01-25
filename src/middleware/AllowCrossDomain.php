@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\middleware;
+namespace SeanPhp\middleware;
 
 use Closure;
-use frame\Config;
-use frame\Request;
-use frame\Response;
+use SeanPhp\Config;
+use SeanPhp\Request;
+use SeanPhp\Response;
 
 /**
  * 跨域请求支持

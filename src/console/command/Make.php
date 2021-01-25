@@ -1,11 +1,11 @@
 <?php
 
-namespace frame\console\command;
+namespace SeanPhp\console\command;
 
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\input\Argument;
-use frame\console\Output;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Argument;
+use SeanPhp\console\Output;
 
 abstract class Make extends Command
 {

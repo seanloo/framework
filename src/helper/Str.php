@@ -1,6 +1,6 @@
 <?php
 
-namespace frame\helper;
+namespace SeanPhp\helper;
 
 class Str
 {

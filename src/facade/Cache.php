@@ -2,16 +2,16 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
-use frame\cache\Driver;
-use frame\cache\TagSet;
+use SeanPhp\Facade;
+use SeanPhp\cache\Driver;
+use SeanPhp\cache\TagSet;
 
 /**
- * @see \frame\Cache
- * @package frame\facade
- * @mixin \frame\Cache
+ * @see \SeanPhp\Cache
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Cache
  * @method static string|null getDefaultDriver() 默认驱动
  * @method static mixed getConfig(null|string $name = null, mixed $default = null) 获取缓存配置
  * @method static array getStoreConfig(string $store, string $name = null, null $default = null) 获取驱动配置

@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\console;
+namespace SeanPhp\console;
 
 class Table
 {

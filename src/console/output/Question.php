@@ -1,7 +1,7 @@
 <?php
 
 
-namespace frame\console\output;
+namespace SeanPhp\console\output;
 
 class Question
 {

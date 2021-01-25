@@ -2,38 +2,38 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use Closure;
 use InvalidArgumentException;
 use LogicException;
-use frame\console\Command;
-use frame\console\command\Clear;
-use frame\console\command\Help;
-use frame\console\command\Help as HelpCommand;
-use frame\console\command\Lists;
-use frame\console\command\make\Command as MakeCommand;
-use frame\console\command\make\Controller;
-use frame\console\command\make\Event;
-use frame\console\command\make\Listener;
-use frame\console\command\make\Middleware;
-use frame\console\command\make\Model;
-use frame\console\command\make\Service;
-use frame\console\command\make\Subscribe;
-use frame\console\command\make\Validate;
-use frame\console\command\optimize\Route;
-use frame\console\command\optimize\Schema;
-use frame\console\command\RouteList;
-use frame\console\command\RunServer;
-use frame\console\command\ServiceDiscover;
-use frame\console\command\VendorPublish;
-use frame\console\command\Version;
-use frame\console\Input;
-use frame\console\input\Argument as InputArgument;
-use frame\console\input\Definition as InputDefinition;
-use frame\console\input\Option as InputOption;
-use frame\console\Output;
-use frame\console\output\driver\Buffer;
+use SeanPhp\console\Command;
+use SeanPhp\console\command\Clear;
+use SeanPhp\console\command\Help;
+use SeanPhp\console\command\Help as HelpCommand;
+use SeanPhp\console\command\Lists;
+use SeanPhp\console\command\make\Command as MakeCommand;
+use SeanPhp\console\command\make\Controller;
+use SeanPhp\console\command\make\Event;
+use SeanPhp\console\command\make\Listener;
+use SeanPhp\console\command\make\Middleware;
+use SeanPhp\console\command\make\Model;
+use SeanPhp\console\command\make\Service;
+use SeanPhp\console\command\make\Subscribe;
+use SeanPhp\console\command\make\Validate;
+use SeanPhp\console\command\optimize\Route;
+use SeanPhp\console\command\optimize\Schema;
+use SeanPhp\console\command\RouteList;
+use SeanPhp\console\command\RunServer;
+use SeanPhp\console\command\ServiceDiscover;
+use SeanPhp\console\command\VendorPublish;
+use SeanPhp\console\command\Version;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Argument as InputArgument;
+use SeanPhp\console\input\Definition as InputDefinition;
+use SeanPhp\console\input\Option as InputOption;
+use SeanPhp\console\Output;
+use SeanPhp\console\output\driver\Buffer;
 
 /**
  * 控制台应用管理类

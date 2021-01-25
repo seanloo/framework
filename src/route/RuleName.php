@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\route;
+namespace SeanPhp\route;
 
 /**
  * 路由标识管理类

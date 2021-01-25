@@ -1,6 +1,6 @@
 <?php
 
-namespace frame\template\driver;
+namespace SeanPhp\template\driver;
 
 use Exception;
 

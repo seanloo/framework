@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\exception;
+namespace SeanPhp\exception;
 
 /**
  * 数据验证异常

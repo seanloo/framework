@@ -3,10 +3,10 @@ declare (strict_types = 1);
 
 namespace {%namespace%};
 
-use frame\Model;
+use SeanPhp\Model;
 
 /**
- * @mixin \frame\Model
+ * @mixin \SeanPhp\Model
  */
 class {%className%} extends Model
 {

@@ -1,7 +1,7 @@
 <?php
 
 declare (strict_types = 1);
-namespace frame\db;
+namespace SeanPhp\db;
 
 use MongoDB\Driver\BulkWrite;
 use MongoDB\Driver\Command;
@@ -14,10 +14,10 @@ use MongoDB\Driver\Exception\RuntimeException;
 use MongoDB\Driver\Query as MongoQuery;
 use MongoDB\Driver\ReadPreference;
 use MongoDB\Driver\WriteConcern;
-use frame\Collection;
-use frame\db\connector\Mongo as Connection;
-use frame\db\exception\DbException as Exception;
-use frame\Paginator;
+use SeanPhp\Collection;
+use SeanPhp\db\connector\Mongo as Connection;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\Paginator;
 
 class Mongo extends BaseQuery
 {

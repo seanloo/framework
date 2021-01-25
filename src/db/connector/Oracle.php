@@ -1,10 +1,10 @@
 <?php
 
-namespace frame\db\connector;
+namespace SeanPhp\db\connector;
 
 use PDO;
-use frame\db\BaseQuery;
-use frame\db\PDOConnection;
+use SeanPhp\db\BaseQuery;
+use SeanPhp\db\PDOConnection;
 
 /**
  * Oracle数据库驱动

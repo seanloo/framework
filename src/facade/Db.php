@@ -1,9 +1,9 @@
 <?php
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-if (class_exists('frame\Facade')) {
-    class Facade extends \frame\Facade
+if (class_exists('SeanPhp\Facade')) {
+    class Facade extends \SeanPhp\Facade
     {}
 } else {
     class Facade
@@ -33,7 +33,7 @@ if (class_exists('frame\Facade')) {
          */
         protected static function createFacade(bool $newInstance = false)
         {
-            $class = static::getFacadeClass() ?: 'frame\DbManager';
+            $class = static::getFacadeClass() ?: 'SeanPhp\DbManager';
 
             if (static::$alwaysNewInstance) {
                 $newInstance = true;
@@ -60,8 +60,8 @@ if (class_exists('frame\Facade')) {
 }
 
 /**
- * @see \frame\DbManager
- * @mixin \frame\DbManager
+ * @see \SeanPhp\DbManager
+ * @mixin \SeanPhp\DbManager
  */
 class Db extends Facade
 {
@@ -72,6 +72,6 @@ class Db extends Facade
      */
     protected static function getFacadeClass()
     {
-        return 'frame\DbManager';
+        return 'SeanPhp\DbManager';
     }
 }

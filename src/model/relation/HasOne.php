@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\model\relation;
+namespace SeanPhp\model\relation;
 
 use Closure;
-use frame\db\BaseQuery as Query;
-use frame\helper\Str;
-use frame\Model;
+use SeanPhp\db\BaseQuery as Query;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
 
 /**
  * HasOne 关联类

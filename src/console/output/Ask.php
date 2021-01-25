@@ -1,12 +1,12 @@
 <?php
 
 
-namespace frame\console\output;
+namespace SeanPhp\console\output;
 
-use frame\console\Input;
-use frame\console\Output;
-use frame\console\output\question\Choice;
-use frame\console\output\question\Confirmation;
+use SeanPhp\console\Input;
+use SeanPhp\console\Output;
+use SeanPhp\console\output\question\Choice;
+use SeanPhp\console\output\question\Confirmation;
 
 class Ask
 {

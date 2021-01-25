@@ -1,6 +1,6 @@
 <?php
 
-namespace frame\db\exception;
+namespace SeanPhp\db\exception;
 
 /**
  * 模型事件异常

@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\concern;
+namespace SeanPhp\db\concern;
 
-use frame\db\Raw;
-use frame\helper\Str;
+use SeanPhp\db\Raw;
+use SeanPhp\helper\Str;
 
 /**
  * JOIN和VIEW查询

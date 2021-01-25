@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
 use DateInterval;
 use DateTime;
 use DateTimeInterface;
-use frame\db\exception\InvalidArgumentException;
+use SeanPhp\db\exception\InvalidArgumentException;
 
 /**
  * CacheItem实现类

@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
+use SeanPhp\Facade;
 
 /**
- * @see \frame\Middleware
- * @package frame\facade
- * @mixin \frame\Middleware
+ * @see \SeanPhp\Middleware
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Middleware
  * @method static void import(array $middlewares = [], string $type = 'global') 导入中间件
  * @method static void add(mixed $middleware, string $type = 'global') 注册中间件
  * @method static void route(mixed $middleware) 注册路由中间件
@@ -17,8 +17,8 @@ use frame\Facade;
  * @method static mixed unshift(mixed $middleware, string $type = 'global') 注册中间件到开始位置
  * @method static array all(string $type = 'global') 获取注册的中间件
  * @method static Pipeline pipeline(string $type = 'global') 调度管道
- * @method static mixed end(\frame\Response $response) 结束调度
- * @method static \frame\Response handleException(\frame\Request $passable, \Throwable $e) 异常处理
+ * @method static mixed end(\SeanPhp\Response $response) 结束调度
+ * @method static \SeanPhp\Response handleException(\SeanPhp\Request $passable, \Throwable $e) 异常处理
  */
 class Middleware extends Facade
 {

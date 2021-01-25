@@ -1,9 +1,9 @@
 <?php
 
-namespace frame\template;
+namespace SeanPhp\template;
 
 use Exception;
-use frame\Template;
+use SeanPhp\Template;
 
 /**
  * 标签库TagLib解析基类

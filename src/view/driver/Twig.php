@@ -1,10 +1,10 @@
 <?php
 
-namespace frame\view\driver;
+namespace SeanPhp\view\driver;
 
 use RuntimeException;
-use frame\App;
-use frame\contract\TemplateHandlerInterface;
+use SeanPhp\App;
+use SeanPhp\contract\TemplateHandlerInterface;
 use Twig\Environment;
 use Twig\Loader\ArrayLoader;
 use Twig\Loader\FilesystemLoader;

@@ -2,15 +2,15 @@
 
 declare (strict_types = 1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
 use Closure;
 use PDO;
 use PDOStatement;
-use frame\db\exception\BindParamException;
-use frame\db\exception\DataNotFoundException;
-use frame\db\exception\ModelNotFoundException;
-use frame\db\exception\PDOException;
+use SeanPhp\db\exception\BindParamException;
+use SeanPhp\db\exception\DataNotFoundException;
+use SeanPhp\db\exception\ModelNotFoundException;
+use SeanPhp\db\exception\PDOException;
 
 /**
  * 数据库连接基础类
@@ -206,7 +206,7 @@ abstract class PDOConnection extends Connection implements ConnectionInterface
      */
     public function getBuilderClass(): string
     {
-        return $this->getConfig('builder') ?: '\\frame\\db\\builder\\' . ucfirst($this->getConfig('type'));
+        return $this->getConfig('builder') ?: '\\SeanPhp\\db\\builder\\' . ucfirst($this->getConfig('type'));
     }
 
     /**
@@ -575,7 +575,7 @@ abstract class PDOConnection extends Connection implements ConnectionInterface
      * @param BaseQuery    $query     查询对象
      * @param string       $sql       sql指令
      * @param array        $bind      参数绑定
-     * @param \frame\Model $model     模型对象实例
+     * @param \SeanPhp\Model $model     模型对象实例
      * @param array        $condition 查询条件
      * @return \Generator
      */

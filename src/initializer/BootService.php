@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\initializer;
+namespace SeanPhp\initializer;
 
-use frame\App;
+use SeanPhp\App;
 
 /**
  * 启动系统服务

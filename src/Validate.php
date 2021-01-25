@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use Closure;
-use frame\exception\ValidateException;
-use frame\helper\Str;
-use frame\validate\ValidateRule;
+use SeanPhp\exception\ValidateException;
+use SeanPhp\helper\Str;
+use SeanPhp\validate\ValidateRule;
 
 /**
  * 数据验证类

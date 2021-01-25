@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\concern;
+namespace SeanPhp\db\concern;
 
-use frame\db\BaseQuery;
+use SeanPhp\db\BaseQuery;
 
 /**
  * 事务支持

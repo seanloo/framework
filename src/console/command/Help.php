@@ -1,13 +1,13 @@
 <?php
 
 
-namespace frame\console\command;
+namespace SeanPhp\console\command;
 
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\input\Argument as InputArgument;
-use frame\console\input\Option as InputOption;
-use frame\console\Output;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Argument as InputArgument;
+use SeanPhp\console\input\Option as InputOption;
+use SeanPhp\console\Output;
 
 class Help extends Command
 {

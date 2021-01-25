@@ -2,10 +2,10 @@
 
 declare (strict_types=1);
 
-namespace frame;
+namespace SeanPhp;
 
 use Closure;
-use frame\event\RouteLoaded;
+use SeanPhp\event\RouteLoaded;
 
 /**
  * 系统服务基础类

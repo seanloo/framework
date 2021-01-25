@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\cache\driver;
+namespace SeanPhp\cache\driver;
 
-use frame\cache\Driver;
+use SeanPhp\cache\Driver;
 
 /**
  * Memcached缓存类

@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\response;
+namespace SeanPhp\response;
 
-use frame\Cookie;
-use frame\Request;
-use frame\Response;
-use frame\Session;
+use SeanPhp\Cookie;
+use SeanPhp\Request;
+use SeanPhp\Response;
+use SeanPhp\Session;
 
 /**
  * Redirect Response

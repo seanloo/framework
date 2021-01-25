@@ -1,6 +1,6 @@
 <?php
 
-namespace frame\template\exception;
+namespace SeanPhp\template\exception;
 
 class TemplateNotFoundException extends \RuntimeException
 {

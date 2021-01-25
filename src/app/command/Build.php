@@ -1,12 +1,12 @@
 <?php
 
 
-namespace frame\app\command;
+namespace SeanPhp\app\command;
 
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\input\Argument;
-use frame\console\Output;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Argument;
+use SeanPhp\console\Output;
 
 class Build extends Command
 {
@@ -95,7 +95,7 @@ class Build extends Command
                             $content = "<?php" . PHP_EOL . "namespace {$space};" . PHP_EOL . PHP_EOL . "class {$class}" . PHP_EOL . "{" . PHP_EOL . PHP_EOL . "}";
                             break;
                         case 'model': // 模型
-                            $content = "<?php" . PHP_EOL . "namespace {$space};" . PHP_EOL . PHP_EOL . "use frame\Model;" . PHP_EOL . PHP_EOL . "class {$class} extends Model" . PHP_EOL . "{" . PHP_EOL . PHP_EOL . "}";
+                            $content = "<?php" . PHP_EOL . "namespace {$space};" . PHP_EOL . PHP_EOL . "use SeanPhp\Model;" . PHP_EOL . PHP_EOL . "class {$class} extends Model" . PHP_EOL . "{" . PHP_EOL . PHP_EOL . "}";
                             break;
                         case 'view': // 视图
                             $filename = $appPath . $path . DIRECTORY_SEPARATOR . $val . '.html';

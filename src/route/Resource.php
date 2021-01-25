@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\route;
+namespace SeanPhp\route;
 
-use frame\Route;
+use SeanPhp\Route;
 
 /**
  * 资源路由类

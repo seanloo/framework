@@ -2,15 +2,15 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use Psr\SimpleCache\CacheInterface;
-use frame\db\BaseQuery;
-use frame\db\ConnectionInterface;
-use frame\db\Query;
-use frame\db\Raw;
+use SeanPhp\db\BaseQuery;
+use SeanPhp\db\ConnectionInterface;
+use SeanPhp\db\Query;
+use SeanPhp\db\Raw;
 
 /**
  * Class DbManager
@@ -287,7 +287,7 @@ class DbManager
         if (false !== strpos($type, '\\')) {
             $class = $type;
         } else {
-            $class = '\\frame\\db\\connector\\' . ucfirst($type);
+            $class = '\\SeanPhp\\db\\connector\\' . ucfirst($type);
         }
 
         /** @var ConnectionInterface $connection */

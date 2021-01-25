@@ -1,13 +1,13 @@
 <?php
 
-namespace frame\model\relation;
+namespace SeanPhp\model\relation;
 
 use Closure;
-use frame\db\BaseQuery as Query;
-use frame\db\Raw;
-use frame\helper\Str;
-use frame\Model;
-use frame\model\Relation;
+use SeanPhp\db\BaseQuery as Query;
+use SeanPhp\db\Raw;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\model\Relation;
 
 /**
  * 多态多对多关联

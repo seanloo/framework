@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\service;
+namespace SeanPhp\service;
 
-use frame\Service;
-use frame\Validate;
+use SeanPhp\Service;
+use SeanPhp\Validate;
 
 /**
  * 验证服务类

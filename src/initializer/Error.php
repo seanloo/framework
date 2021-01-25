@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\initializer;
+namespace SeanPhp\initializer;
 
-use frame\App;
-use frame\console\Output as ConsoleOutput;
-use frame\exception\ErrorException;
-use frame\exception\Handle;
+use SeanPhp\App;
+use SeanPhp\console\Output as ConsoleOutput;
+use SeanPhp\exception\ErrorException;
+use SeanPhp\exception\Handle;
 use Throwable;
 
 /**
@@ -65,7 +65,7 @@ class Error
         $exception = new ErrorException($errno, $errstr, $errfile, $errline);
 
         if (error_reporting() & $errno) {
-            // 将错误信息托管至 frame\exception\ErrorException
+            // 将错误信息托管至 SeanPhp\exception\ErrorException
             throw $exception;
         }
     }
@@ -77,7 +77,7 @@ class Error
     public function appShutdown(): void
     {
         if (!is_null($error = error_get_last()) && $this->isFatal($error['type'])) {
-            // 将错误信息托管至frame\ErrorException
+            // 将错误信息托管至SeanPhp\ErrorException
             $exception = new ErrorException($error['type'], $error['message'], $error['file'], $error['line']);
 
             $this->appException($exception);

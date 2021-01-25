@@ -1,7 +1,7 @@
 <?php
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 /**
  * 响应输出基础类
@@ -93,7 +93,7 @@ abstract class Response
      */
     public static function create($data = '', string $type = 'html', int $code = 200): Response
     {
-        $class = false !== strpos($type, '\\') ? $type : '\\frame\\response\\' . ucfirst(strtolower($type));
+        $class = false !== strpos($type, '\\') ? $type : '\\SeanPhp\\response\\' . ucfirst(strtolower($type));
 
         return Container::getInstance()->invokeClass($class, [$data, $code]);
     }

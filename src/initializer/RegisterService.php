@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\initializer;
+namespace SeanPhp\initializer;
 
-use frame\App;
-use frame\service\ValidateService;
-use frame\service\ModelService;
-use frame\service\PaginatorService;
+use SeanPhp\App;
+use SeanPhp\service\ValidateService;
+use SeanPhp\service\ModelService;
+use SeanPhp\service\PaginatorService;
 /**
  * 注册系统服务
  */

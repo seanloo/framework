@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
-use frame\db\exception\DbException as Exception;
-use frame\helper\Str;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\helper\Str;
 
 /**
  * SQL获取类

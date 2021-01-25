@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace frame\middleware;
+namespace SeanPhp\middleware;
 
 use Closure;
-use frame\App;
-use frame\Lang;
-use frame\Request;
-use frame\Response;
+use SeanPhp\App;
+use SeanPhp\Lang;
+use SeanPhp\Request;
+use SeanPhp\Response;
 
 /**
  * 多语言加载

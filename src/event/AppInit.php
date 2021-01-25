@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\event;
+namespace SeanPhp\event;
 
 /**
  * AppInit事件类

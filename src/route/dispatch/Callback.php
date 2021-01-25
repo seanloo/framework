@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\route\dispatch;
+namespace SeanPhp\route\dispatch;
 
-use frame\route\Dispatch;
+use SeanPhp\route\Dispatch;
 
 /**
  * Callback Dispatcher

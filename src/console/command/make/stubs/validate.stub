@@ -3,7 +3,7 @@ declare (strict_types = 1);
 
 namespace {%namespace%};
 
-use frame\Validate;
+use SeanPhp\Validate;
 
 class {%className%} extends Validate
 {

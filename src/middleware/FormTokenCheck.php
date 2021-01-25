@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\middleware;
+namespace SeanPhp\middleware;
 
 use Closure;
-use frame\exception\ValidateException;
-use frame\Request;
-use frame\Response;
+use SeanPhp\exception\ValidateException;
+use SeanPhp\Request;
+use SeanPhp\Response;
 
 /**
  * 表单令牌支持

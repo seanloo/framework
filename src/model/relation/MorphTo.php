@@ -1,12 +1,12 @@
 <?php
 
-namespace frame\model\relation;
+namespace SeanPhp\model\relation;
 
 use Closure;
-use frame\db\exception\DbException as Exception;
-use frame\helper\Str;
-use frame\Model;
-use frame\model\Relation;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\model\Relation;
 
 /**
  * 多态关联类

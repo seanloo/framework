@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame\model\relation;
+namespace SeanPhp\model\relation;
 
 use Closure;
-use frame\Collection;
-use frame\db\BaseQuery as Query;
-use frame\helper\Str;
-use frame\Model;
-use frame\model\Relation;
+use SeanPhp\Collection;
+use SeanPhp\db\BaseQuery as Query;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\model\Relation;
 
 /**
  * 一对多关联类

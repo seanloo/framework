@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
+use SeanPhp\Facade;
 
 /**
- * @see \frame\Env
- * @package frame\facade
- * @mixin \frame\Env
+ * @see \SeanPhp\Env
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Env
  * @method static void load(string $file) 读取环境变量定义文件
  * @method static mixed get(string $name = null, mixed $default = null) 获取环境变量值
  * @method static void set(string|array $env, mixed $value = null) 设置环境变量值

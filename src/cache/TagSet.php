@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\cache;
+namespace SeanPhp\cache;
 
 /**
  * 标签集合

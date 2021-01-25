@@ -1,14 +1,14 @@
 <?php
 
-namespace frame\console\command;
+namespace SeanPhp\console\command;
 
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\input\Argument;
-use frame\console\input\Option;
-use frame\console\Output;
-use frame\console\Table;
-use frame\event\RouteLoaded;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Argument;
+use SeanPhp\console\input\Option;
+use SeanPhp\console\Output;
+use SeanPhp\console\Table;
+use SeanPhp\event\RouteLoaded;
 
 class RouteList extends Command
 {

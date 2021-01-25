@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use ArrayAccess;
 use ArrayIterator;
@@ -11,7 +11,7 @@ use Countable;
 use DomainException;
 use IteratorAggregate;
 use JsonSerializable;
-use frame\paginator\driver\Bootstrap;
+use SeanPhp\paginator\driver\Bootstrap;
 use Traversable;
 
 /**
@@ -346,7 +346,7 @@ abstract class Paginator implements ArrayAccess, Countable, IteratorAggregate, J
     /**
      * 获取数据集
      *
-     * @return Collection|\frame\model\Collection
+     * @return Collection|\SeanPhp\model\Collection
      */
     public function getCollection()
     {

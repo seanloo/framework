@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame\exception;
+namespace SeanPhp\exception;
 
-use frame\Exception;
+use SeanPhp\Exception;
 
 /**
  * SYSTEM错误异常
  * 主要用于封装 set_error_handler 和 register_shutdown_function 得到的错误
- * 除开从 frame\Exception 继承的功能
+ * 除开从 SeanPhp\Exception 继承的功能
  * 其他和PHP系统\ErrorException功能基本一样
  */
 class ErrorException extends Exception

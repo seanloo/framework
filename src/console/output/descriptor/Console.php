@@ -1,10 +1,10 @@
 <?php
 
 
-namespace frame\console\output\descriptor;
+namespace SeanPhp\console\output\descriptor;
 
-use frame\Console as FrameConsole;
-use frame\console\Command;
+use SeanPhp\Console as FrameConsole;
+use SeanPhp\console\Command;
 
 class Console
 {

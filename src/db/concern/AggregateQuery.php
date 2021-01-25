@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\concern;
+namespace SeanPhp\db\concern;
 
-use frame\db\Raw;
+use SeanPhp\db\Raw;
 
 /**
  * 聚合查询

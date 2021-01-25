@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\route;
+namespace SeanPhp\route;
 
-use frame\App;
-use frame\Route;
+use SeanPhp\App;
+use SeanPhp\Route;
 
 /**
  * 路由地址生成

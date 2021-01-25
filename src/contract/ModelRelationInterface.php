@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\contract;
+namespace SeanPhp\contract;
 
 use Closure;
-use frame\Collection;
-use frame\db\Query;
-use frame\Model;
+use SeanPhp\Collection;
+use SeanPhp\db\Query;
+use SeanPhp\Model;
 
 /**
  * 模型关联接口

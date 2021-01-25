@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\model\concern;
+namespace SeanPhp\model\concern;
 
 use InvalidArgumentException;
-use frame\db\Raw;
-use frame\helper\Str;
-use frame\model\Relation;
+use SeanPhp\db\Raw;
+use SeanPhp\helper\Str;
+use SeanPhp\model\Relation;
 
 /**
  * 模型数据处理

@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
+use SeanPhp\Facade;
 
 /**
- * @see \frame\Session
- * @package frame\facade
- * @mixin \frame\Session
+ * @see \SeanPhp\Session
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Session
  * @method static mixed getConfig(null|string $name = null, mixed $default = null) 获取Session配置
  * @method static string|null getDefaultDriver() 默认驱动
  */

@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
-use frame\helper\Arr;
-use frame\session\Store;
+use SeanPhp\helper\Arr;
+use SeanPhp\session\Store;
 
 /**
  * Session管理类
@@ -14,7 +14,7 @@ use frame\session\Store;
  */
 class Session extends Manager
 {
-    protected $namespace = '\\frame\\session\\driver\\';
+    protected $namespace = '\\SeanPhp\\session\\driver\\';
 
     protected function createDriver(string $name)
     {

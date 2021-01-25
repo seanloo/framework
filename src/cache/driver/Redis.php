@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\cache\driver;
+namespace SeanPhp\cache\driver;
 
-use frame\cache\Driver;
+use SeanPhp\cache\Driver;
 
 /**
  * Redis缓存驱动，适合单机部署、有前端代理实现高可用的场景，性能最好

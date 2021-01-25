@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\route;
+namespace SeanPhp\route;
 
-use frame\Exception;
-use frame\Request;
-use frame\Route;
+use SeanPhp\Exception;
+use SeanPhp\Request;
+use SeanPhp\Route;
 
 /**
  * 路由规则类

@@ -1,6 +1,6 @@
 <?php
 
-namespace frame;
+namespace SeanPhp;
 
 /**
  * Facade管理类

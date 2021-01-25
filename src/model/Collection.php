@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\model;
+namespace SeanPhp\model;
 
-use frame\Collection as BaseCollection;
-use frame\Model;
-use frame\Paginator;
+use SeanPhp\Collection as BaseCollection;
+use SeanPhp\Model;
+use SeanPhp\Paginator;
 
 /**
  * 模型数据集类

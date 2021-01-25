@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use Closure;
 use InvalidArgumentException;
 use LogicException;
-use frame\exception\Handle;
+use SeanPhp\exception\Handle;
 use Throwable;
 
 /**

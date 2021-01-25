@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\filesystem\driver;
+namespace SeanPhp\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
 use League\Flysystem\Adapter\Local as LocalAdapter;
-use frame\filesystem\Driver;
+use SeanPhp\filesystem\Driver;
 
 class Local extends Driver
 {

@@ -2,17 +2,17 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
+use SeanPhp\Facade;
 
 /**
- * @see \frame\View
- * @package frame\facade
- * @mixin \frame\View
- * @method static \frame\View engine(string $type = null) 获取模板引擎
- * @method static \frame\View assign(string|array $name, mixed $value = null) 模板变量赋值
- * @method static \frame\View filter(\frame\Callable $filter = null) 视图过滤
+ * @see \SeanPhp\View
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\View
+ * @method static \SeanPhp\View engine(string $type = null) 获取模板引擎
+ * @method static \SeanPhp\View assign(string|array $name, mixed $value = null) 模板变量赋值
+ * @method static \SeanPhp\View filter(\SeanPhp\Callable $filter = null) 视图过滤
  * @method static string fetch(string $template = '', array $vars = []) 解析和获取模板内容 用于输出
  * @method static string display(string $content, array $vars = []) 渲染内容输出
  * @method static mixed __set(string $name, mixed $value) 模板变量赋值

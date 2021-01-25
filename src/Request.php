@@ -2,11 +2,11 @@
 
 declare (strict_types=1);
 
-namespace frame;
+namespace SeanPhp;
 
 use ArrayAccess;
-//use frame\file\UploadedFile;
-use frame\route\Rule;
+//use SeanPhp\file\UploadedFile;
+use SeanPhp\route\Rule;
 
 /**
  * 请求管理类

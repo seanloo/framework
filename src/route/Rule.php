@@ -2,17 +2,17 @@
 
 declare (strict_types = 1);
 
-namespace frame\route;
+namespace SeanPhp\route;
 
 use Closure;
-use frame\Container;
-use frame\middleware\AllowCrossDomain;
-use frame\middleware\CheckRequestCache;
-use frame\middleware\FormTokenCheck;
-use frame\Request;
-use frame\Route;
-use frame\route\dispatch\Callback as CallbackDispatch;
-use frame\route\dispatch\Controller as ControllerDispatch;
+use SeanPhp\Container;
+use SeanPhp\middleware\AllowCrossDomain;
+use SeanPhp\middleware\CheckRequestCache;
+use SeanPhp\middleware\FormTokenCheck;
+use SeanPhp\Request;
+use SeanPhp\Route;
+use SeanPhp\route\dispatch\Callback as CallbackDispatch;
+use SeanPhp\route\dispatch\Controller as ControllerDispatch;
 
 /**
  * 路由规则基础类

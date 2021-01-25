@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 /**
  * 配置管理类

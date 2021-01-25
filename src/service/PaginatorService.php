@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\service;
+namespace SeanPhp\service;
 
-use frame\Paginator;
-use frame\paginator\driver\Bootstrap;
-use frame\Service;
+use SeanPhp\Paginator;
+use SeanPhp\paginator\driver\Bootstrap;
+use SeanPhp\Service;
 
 /**
  * 分页服务类

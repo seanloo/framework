@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\exception;
+namespace SeanPhp\exception;
 
-use frame\Response;
+use SeanPhp\Response;
 
 /**
  * HTTP响应异常

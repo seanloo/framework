@@ -1,17 +1,17 @@
 <?php
 
-namespace frame\model\relation;
+namespace SeanPhp\model\relation;
 
 use Closure;
-use frame\Collection;
-use frame\db\BaseQuery as Query;
-use frame\db\exception\DbException as Exception;
-use frame\db\Raw;
-use frame\helper\Str;
-use frame\Model;
-use frame\model\Pivot;
-use frame\model\Relation;
-use frame\Paginator;
+use SeanPhp\Collection;
+use SeanPhp\db\BaseQuery as Query;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\db\Raw;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\model\Pivot;
+use SeanPhp\model\Relation;
+use SeanPhp\Paginator;
 
 /**
  * 多对多关联类
@@ -108,7 +108,7 @@ class BelongsToMany extends Relation
         if ($pivot instanceof Pivot) {
             return $pivot;
         } else {
-            throw new Exception('pivot model must extends: \frame\model\Pivot');
+            throw new Exception('pivot model must extends: \SeanPhp\model\Pivot');
         }
     }
 

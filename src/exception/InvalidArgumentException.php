@@ -1,7 +1,7 @@
 <?php
 
 declare (strict_types = 1);
-namespace frame\exception;
+namespace SeanPhp\exception;
 
 use Psr\Cache\InvalidArgumentException as Psr6CacheInvalidArgumentInterface;
 use Psr\SimpleCache\InvalidArgumentException as SimpleCacheInvalidArgumentInterface;

@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\concern;
+namespace SeanPhp\db\concern;
 
 use Closure;
-use frame\db\BaseQuery;
-use frame\db\Raw;
+use SeanPhp\db\BaseQuery;
+use SeanPhp\db\Raw;
 
 trait WhereQuery
 {

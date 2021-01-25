@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
+use SeanPhp\Facade;
 
 /**
- * @see \frame\Cookie
- * @package frame\facade
- * @mixin \frame\Cookie
+ * @see \SeanPhp\Cookie
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Cookie
  * @method static mixed get(mixed $name = '', string $default = null) 获取cookie
  * @method static bool has(string $name) 是否存在Cookie参数
  * @method static void set(string $name, string $value, mixed $option = null) Cookie 设置

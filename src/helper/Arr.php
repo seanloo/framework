@@ -1,10 +1,10 @@
 <?php
 
-namespace frame\helper;
+namespace SeanPhp\helper;
 
 use ArrayAccess;
 use InvalidArgumentException;
-use frame\Collection;
+use SeanPhp\Collection;
 
 class Arr
 {

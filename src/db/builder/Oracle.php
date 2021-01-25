@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\builder;
+namespace SeanPhp\db\builder;
 
-use frame\db\Builder;
-use frame\db\Query;
+use SeanPhp\db\Builder;
+use SeanPhp\db\Query;
 
 /**
  * Oracle数据库驱动

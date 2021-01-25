@@ -1,10 +1,10 @@
 <?php
 
 
-namespace frame\console\command\make;
+namespace SeanPhp\console\command\make;
 
-use frame\console\command\Make;
-use frame\console\input\Option;
+use SeanPhp\console\command\Make;
+use SeanPhp\console\input\Option;
 
 class Controller extends Make
 {

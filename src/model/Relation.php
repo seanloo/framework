@@ -2,17 +2,17 @@
 
 declare (strict_types = 1);
 
-namespace frame\model;
+namespace SeanPhp\model;
 
 use Closure;
 use ReflectionFunction;
-use frame\db\BaseQuery as Query;
-use frame\db\exception\DbException as Exception;
-use frame\Model;
+use SeanPhp\db\BaseQuery as Query;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\Model;
 
 /**
  * 模型关联基础类
- * @package frame\model
+ * @package SeanPhp\model
  * @mixin Query
  */
 abstract class Relation

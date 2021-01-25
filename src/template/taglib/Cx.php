@@ -1,8 +1,8 @@
 <?php
 
-namespace frame\template\taglib;
+namespace SeanPhp\template\taglib;
 
-use frame\template\TagLib;
+use SeanPhp\template\TagLib;
 
 /**
  * CX标签库解析类
@@ -89,7 +89,7 @@ class Cx extends Taglib
             $name = $this->autoBuildVar($name);
         }
 
-        $parseStr .= 'if(is_array(' . $name . ') || ' . $name . ' instanceof \frame\Collection || ' . $name . ' instanceof \frame\Paginator): $' . $key . ' = 0;';
+        $parseStr .= 'if(is_array(' . $name . ') || ' . $name . ' instanceof \SeanPhp\Collection || ' . $name . ' instanceof \SeanPhp\Paginator): $' . $key . ' = 0;';
 
         // 设置了输出数组长度
         if (0 != $offset || 'null' != $length) {
@@ -151,7 +151,7 @@ class Cx extends Taglib
             $name = $this->autoBuildVar($name);
         }
 
-        $parseStr .= 'if(is_array(' . $name . ') || ' . $name . ' instanceof \frame\Collection || ' . $name . ' instanceof \frame\Paginator): ';
+        $parseStr .= 'if(is_array(' . $name . ') || ' . $name . ' instanceof \SeanPhp\Collection || ' . $name . ' instanceof \SeanPhp\Paginator): ';
 
         // 设置了输出数组长度
         if (0 != $offset || 'null' != $length) {
@@ -441,7 +441,7 @@ class Cx extends Taglib
     {
         $name     = $tag['name'];
         $name     = $this->autoBuildVar($name);
-        $parseStr = '<?php if(empty(' . $name . ') || ((' . $name . ' instanceof \frame\Collection || ' . $name . ' instanceof \frame\Paginator ) && ' . $name . '->isEmpty())): ?>' . $content . '<?php endif; ?>';
+        $parseStr = '<?php if(empty(' . $name . ') || ((' . $name . ' instanceof \SeanPhp\Collection || ' . $name . ' instanceof \SeanPhp\Paginator ) && ' . $name . '->isEmpty())): ?>' . $content . '<?php endif; ?>';
 
         return $parseStr;
     }
@@ -459,7 +459,7 @@ class Cx extends Taglib
     {
         $name     = $tag['name'];
         $name     = $this->autoBuildVar($name);
-        $parseStr = '<?php if(!(empty(' . $name . ') || ((' . $name . ' instanceof \frame\Collection || ' . $name . ' instanceof \frame\Paginator ) && ' . $name . '->isEmpty()))): ?>' . $content . '<?php endif; ?>';
+        $parseStr = '<?php if(!(empty(' . $name . ') || ((' . $name . ' instanceof \SeanPhp\Collection || ' . $name . ' instanceof \SeanPhp\Paginator ) && ' . $name . '->isEmpty()))): ?>' . $content . '<?php endif; ?>';
 
         return $parseStr;
     }

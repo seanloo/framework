@@ -1,15 +1,15 @@
 <?php
 
 
-namespace frame\console\output;
+namespace SeanPhp\console\output;
 
-use frame\Console;
-use frame\console\Command;
-use frame\console\input\Argument as InputArgument;
-use frame\console\input\Definition as InputDefinition;
-use frame\console\input\Option as InputOption;
-use frame\console\Output;
-use frame\console\output\descriptor\Console as ConsoleDescription;
+use SeanPhp\Console;
+use SeanPhp\console\Command;
+use SeanPhp\console\input\Argument as InputArgument;
+use SeanPhp\console\input\Definition as InputDefinition;
+use SeanPhp\console\input\Option as InputOption;
+use SeanPhp\console\Output;
+use SeanPhp\console\output\descriptor\Console as ConsoleDescription;
 
 class Descriptor
 {

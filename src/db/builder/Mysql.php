@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\builder;
+namespace SeanPhp\db\builder;
 
-use frame\db\Builder;
-use frame\db\exception\DbException as Exception;
-use frame\db\Query;
-use frame\db\Raw;
+use SeanPhp\db\Builder;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\db\Query;
+use SeanPhp\db\Raw;
 
 /**
  * mysql数据库驱动

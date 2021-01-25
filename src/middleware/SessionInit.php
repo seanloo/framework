@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace frame\middleware;
+namespace SeanPhp\middleware;
 
 use Closure;
-use frame\App;
-use frame\Request;
-use frame\Response;
-use frame\Session;
+use SeanPhp\App;
+use SeanPhp\Request;
+use SeanPhp\Response;
+use SeanPhp\Session;
 
 /**
  * Session初始化

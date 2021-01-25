@@ -1,10 +1,10 @@
 <?php
 
 
-namespace frame\console\output\driver;
+namespace SeanPhp\console\output\driver;
 
-use frame\console\Output;
-use frame\console\output\Formatter;
+use SeanPhp\console\Output;
+use SeanPhp\console\output\Formatter;
 
 class Console
 {

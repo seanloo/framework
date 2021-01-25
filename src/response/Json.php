@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\response;
+namespace SeanPhp\response;
 
-use frame\Cookie;
-use frame\Response;
+use SeanPhp\Cookie;
+use SeanPhp\Response;
 
 /**
  * Json Response

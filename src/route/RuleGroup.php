@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace frame\route;
+namespace SeanPhp\route;
 
 use Closure;
-use frame\Container;
-use frame\Exception;
-use frame\Request;
-use frame\Route;
+use SeanPhp\Container;
+use SeanPhp\Exception;
+use SeanPhp\Request;
+use SeanPhp\Route;
 
 /**
  * 路由分组类

@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\cache\driver;
+namespace SeanPhp\cache\driver;
 
 use FilesystemIterator;
-use frame\App;
-use frame\cache\Driver;
+use SeanPhp\App;
+use SeanPhp\cache\Driver;
 
 /**
  * 文件缓存类

@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\response;
+namespace SeanPhp\response;
 
-use frame\Exception;
-use frame\Response;
+use SeanPhp\Exception;
+use SeanPhp\Response;
 
 /**
  * File Response

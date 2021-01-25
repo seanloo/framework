@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\connector;
+namespace SeanPhp\db\connector;
 
 use Closure;
 use MongoDB\BSON\ObjectID;
@@ -18,12 +18,12 @@ use MongoDB\Driver\Manager;
 use MongoDB\Driver\Query as MongoQuery;
 use MongoDB\Driver\ReadPreference;
 use MongoDB\Driver\WriteConcern;
-use frame\db\BaseQuery;
-use frame\db\builder\Mongo as Builder;
-use frame\db\Connection;
-use frame\db\ConnectionInterface;
-use frame\db\exception\DbException as Exception;
-use frame\db\Mongo as Query;
+use SeanPhp\db\BaseQuery;
+use SeanPhp\db\builder\Mongo as Builder;
+use SeanPhp\db\Connection;
+use SeanPhp\db\ConnectionInterface;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\db\Mongo as Query;
 
 /**
  * Mongo数据库驱动

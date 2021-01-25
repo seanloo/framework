@@ -1,9 +1,9 @@
 <?php
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-if (class_exists('frame\Facade')) {
-    class Facade extends \frame\Facade
+if (class_exists('SeanPhp\Facade')) {
+    class Facade extends \SeanPhp\Facade
     {}
 } else {
     class Facade
@@ -32,7 +32,7 @@ if (class_exists('frame\Facade')) {
          */
         protected static function createFacade()
         {
-            $class = static::getFacadeClass() ?: 'frame\Template';
+            $class = static::getFacadeClass() ?: 'SeanPhp\Template';
 
             if (static::$alwaysNewInstance) {
                 return new $class();
@@ -55,8 +55,8 @@ if (class_exists('frame\Facade')) {
 }
 
 /**
- * @see \frame\Template
- * @mixin \frame\Template
+ * @see \SeanPhp\Template
+ * @mixin \SeanPhp\Template
  */
 class Template extends Facade
 {
@@ -69,6 +69,6 @@ class Template extends Facade
      */
     protected static function getFacadeClass()
     {
-        return 'frame\Template';
+        return 'SeanPhp\Template';
     }
 }

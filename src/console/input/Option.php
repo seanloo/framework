@@ -1,11 +1,11 @@
 <?php
 
 
-namespace frame\console\input;
+namespace SeanPhp\console\input;
 
 /**
  * 命令行选项
- * @package frame\console\input
+ * @package SeanPhp\console\input
  */
 class Option
 {

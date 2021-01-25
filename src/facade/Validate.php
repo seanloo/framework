@@ -2,28 +2,28 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
+use SeanPhp\Facade;
 
 /**
- * @see \frame\Validate
- * @package frame\facade
- * @mixin \frame\Validate
- * @method static void setLang(\frame\Lang $lang) 设置Lang对象
- * @method static void setDb(\frame\Db $db) 设置Db对象
- * @method static void setRequest(\frame\Request $request) 设置Request对象
- * @method static \frame\Validate rule(string|array $name, mixed $rule = '') 添加字段验证规则
- * @method static \frame\Validate extend(string $type, callable $callback = null, string $message = null) 注册验证（类型）规则
+ * @see \SeanPhp\Validate
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Validate
+ * @method static void setLang(\SeanPhp\Lang $lang) 设置Lang对象
+ * @method static void setDb(\SeanPhp\Db $db) 设置Db对象
+ * @method static void setRequest(\SeanPhp\Request $request) 设置Request对象
+ * @method static \SeanPhp\Validate rule(string|array $name, mixed $rule = '') 添加字段验证规则
+ * @method static \SeanPhp\Validate extend(string $type, callable $callback = null, string $message = null) 注册验证（类型）规则
  * @method static void setTypeMsg(string|array $type, string $msg = null) 设置验证规则的默认提示信息
  * @method static Validate message(array $message) 设置提示信息
- * @method static \frame\Validate scene(string $name) 设置验证场景
+ * @method static \SeanPhp\Validate scene(string $name) 设置验证场景
  * @method static bool hasScene(string $name) 判断是否存在某个验证场景
- * @method static \frame\Validate batch(bool $batch = true) 设置批量验证
- * @method static \frame\Validate failException(bool $fail = true) 设置验证失败后是否抛出异常
- * @method static \frame\Validate only(array $fields) 指定需要验证的字段列表
- * @method static \frame\Validate remove(string|array $field, mixed $rule = null) 移除某个字段的验证规则
- * @method static \frame\Validate append(string|array $field, mixed $rule = null) 追加某个字段的验证规则
+ * @method static \SeanPhp\Validate batch(bool $batch = true) 设置批量验证
+ * @method static \SeanPhp\Validate failException(bool $fail = true) 设置验证失败后是否抛出异常
+ * @method static \SeanPhp\Validate only(array $fields) 指定需要验证的字段列表
+ * @method static \SeanPhp\Validate remove(string|array $field, mixed $rule = null) 移除某个字段的验证规则
+ * @method static \SeanPhp\Validate append(string|array $field, mixed $rule = null) 追加某个字段的验证规则
  * @method static bool check(array $data, array $rules = []) 数据自动验证
  * @method static bool checkRule(mixed $value, mixed $rules) 根据验证规则验证数据
  * @method static bool confirm(mixed $value, mixed $rule, array $data = [], string $field = '') 验证是否和某个字段的值一致

@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace frame\log;
+namespace SeanPhp\log;
 
-use frame\Log;
+use SeanPhp\Log;
 
 /**
  * Class ChannelSet
- * @package frame\log
+ * @package SeanPhp\log
  * @mixin Channel
  */
 class ChannelSet

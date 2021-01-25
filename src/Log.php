@@ -2,14 +2,14 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
-use frame\event\LogWrite;
-use frame\helper\Arr;
-use frame\log\Channel;
-use frame\log\ChannelSet;
+use SeanPhp\event\LogWrite;
+use SeanPhp\helper\Arr;
+use SeanPhp\log\Channel;
+use SeanPhp\log\ChannelSet;
 
 /**
  * 日志管理类
@@ -28,7 +28,7 @@ class Log extends Manager implements LoggerInterface
     const DEBUG     = 'debug';
     const SQL       = 'sql';
 
-    protected $namespace = '\\frame\\log\\driver\\';
+    protected $namespace = '\\SeanPhp\\log\\driver\\';
 
     /**
      * 默认驱动

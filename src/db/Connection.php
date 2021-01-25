@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
 use Psr\SimpleCache\CacheInterface;
-use frame\DbManager;
-use frame\db\CacheItem;
+use SeanPhp\DbManager;
+use SeanPhp\db\CacheItem;
 
 /**
  * 数据库连接基础类

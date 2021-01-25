@@ -2,27 +2,27 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
-use frame\log\Channel;
-use frame\log\ChannelSet;
+use SeanPhp\Facade;
+use SeanPhp\log\Channel;
+use SeanPhp\log\ChannelSet;
 
 /**
- * @see \frame\Log
- * @package frame\facade
- * @mixin \frame\Log
+ * @see \SeanPhp\Log
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Log
  * @method static string|null getDefaultDriver() 默认驱动
  * @method static mixed getConfig(null|string $name = null, mixed $default = null) 获取日志配置
  * @method static array getChannelConfig(string $channel, null $name = null, null $default = null) 获取渠道配置
  * @method static Channel|ChannelSet channel(string|array $name = null) driver() 的别名
  * @method static mixed createDriver(string $name)
- * @method static \frame\Log clear(string|array $channel = '*') 清空日志信息
- * @method static \frame\Log close(string|array $channel = '*') 关闭本次请求日志写入
+ * @method static \SeanPhp\Log clear(string|array $channel = '*') 清空日志信息
+ * @method static \SeanPhp\Log close(string|array $channel = '*') 关闭本次请求日志写入
  * @method static array getLog(string $channel = null) 获取日志信息
  * @method static bool save() 保存日志信息
- * @method static \frame\Log record(mixed $msg, string $type = 'info', array $context = [], bool $lazy = true) 记录日志信息
- * @method static \frame\Log write(mixed $msg, string $type = 'info', array $context = []) 实时写入日志信息
+ * @method static \SeanPhp\Log record(mixed $msg, string $type = 'info', array $context = [], bool $lazy = true) 记录日志信息
+ * @method static \SeanPhp\Log write(mixed $msg, string $type = 'info', array $context = []) 实时写入日志信息
  * @method static Event listen($listener) 注册日志写入事件监听
  * @method static void log(string $level, mixed $message, array $context = []) 记录日志信息
  * @method static void emergency(mixed $message, array $context = []) 记录emergency信息

@@ -1,17 +1,17 @@
 <?php
 
-namespace frame\model\relation;
+namespace SeanPhp\model\relation;
 
 use Closure;
-use frame\db\BaseQuery as Query;
-use frame\db\exception\DbException as Exception;
-use frame\helper\Str;
-use frame\Model;
-use frame\model\Relation;
+use SeanPhp\db\BaseQuery as Query;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\model\Relation;
 
 /**
  * 一对一关联基础类
- * @package frame\model\relation
+ * @package SeanPhp\model\relation
  */
 abstract class OneToOne extends Relation
 {

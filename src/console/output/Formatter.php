@@ -1,9 +1,9 @@
 <?php
 
-namespace frame\console\output;
+namespace SeanPhp\console\output;
 
-use frame\console\output\formatter\Stack as StyleStack;
-use frame\console\output\formatter\Style;
+use SeanPhp\console\output\formatter\Stack as StyleStack;
+use SeanPhp\console\output\formatter\Style;
 
 class Formatter
 {

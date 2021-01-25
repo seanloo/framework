@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace frame\route;
+namespace SeanPhp\route;
 
-use frame\helper\Str;
-use frame\Request;
-use frame\Route;
-use frame\route\dispatch\Callback as CallbackDispatch;
-use frame\route\dispatch\Controller as ControllerDispatch;
+use SeanPhp\helper\Str;
+use SeanPhp\Request;
+use SeanPhp\Route;
+use SeanPhp\route\dispatch\Callback as CallbackDispatch;
+use SeanPhp\route\dispatch\Controller as ControllerDispatch;
 
 /**
  * 域名路由

@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\console;
+namespace SeanPhp\console;
 
-use frame\console\input\Argument;
-use frame\console\input\Definition;
-use frame\console\input\Option;
+use SeanPhp\console\input\Argument;
+use SeanPhp\console\input\Definition;
+use SeanPhp\console\input\Option;
 
 class Input
 {

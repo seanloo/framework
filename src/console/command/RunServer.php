@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\console\command;
+namespace SeanPhp\console\command;
 
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\input\Option;
-use frame\console\Output;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Option;
+use SeanPhp\console\Output;
 
 class RunServer extends Command
 {

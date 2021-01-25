@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\console\command;
+namespace SeanPhp\console\command;
 
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\Output;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\Output;
 
 class ServiceDiscover extends Command
 {
@@ -27,8 +27,8 @@ class ServiceDiscover extends Command
 
             $services = [];
             foreach ($packages as $package) {
-                if (!empty($package['extra']['frame']['services'])) {
-                    $services = array_merge($services, (array) $package['extra']['frame']['services']);
+                if (!empty($package['extra']['SeanPhp']['services'])) {
+                    $services = array_merge($services, (array) $package['extra']['SeanPhp']['services']);
                 }
             }
 

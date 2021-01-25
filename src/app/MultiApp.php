@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace frame\app;
+namespace SeanPhp\app;
 
 use Closure;
-use frame\App;
-use frame\exception\HttpException;
-use frame\Request;
-use frame\Response;
+use SeanPhp\App;
+use SeanPhp\exception\HttpException;
+use SeanPhp\Request;
+use SeanPhp\Response;
 
 /**
  * 多应用模式支持

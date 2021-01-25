@@ -6,31 +6,31 @@ declare (strict_types=1);
 // 助手函数
 //-------------------------
 
-use frame\App;
-use frame\Container;
-use frame\Collection;
-use frame\exception\HttpException;
-use frame\exception\HttpResponseException;
-use frame\facade\Cache;
-use frame\facade\Config;
-use frame\facade\Cookie;
-use frame\facade\Env;
-use frame\facade\Event;
-use frame\facade\Lang;
-use frame\facade\Log;
-use frame\facade\Request;
-use frame\facade\Route;
-use frame\facade\Session;
-use frame\Response;
-use frame\response\File;
-use frame\response\Json;
-use frame\response\Jsonp;
-use frame\response\Redirect;
-use frame\response\View;
-use frame\response\Xml;
-use frame\route\Url as UrlBuild;
-use frame\Validate;
-use frame\helper\Arr;
+use SeanPhp\App;
+use SeanPhp\Container;
+use SeanPhp\Collection;
+use SeanPhp\exception\HttpException;
+use SeanPhp\exception\HttpResponseException;
+use SeanPhp\facade\Cache;
+use SeanPhp\facade\Config;
+use SeanPhp\facade\Cookie;
+use SeanPhp\facade\Env;
+use SeanPhp\facade\Event;
+use SeanPhp\facade\Lang;
+use SeanPhp\facade\Log;
+use SeanPhp\facade\Request;
+use SeanPhp\facade\Route;
+use SeanPhp\facade\Session;
+use SeanPhp\Response;
+use SeanPhp\response\File;
+use SeanPhp\response\Json;
+use SeanPhp\response\Jsonp;
+use SeanPhp\response\Redirect;
+use SeanPhp\response\View;
+use SeanPhp\response\Xml;
+use SeanPhp\route\Url as UrlBuild;
+use SeanPhp\Validate;
+use SeanPhp\helper\Arr;
 
 if (!function_exists('abort')) {
     /**
@@ -156,12 +156,12 @@ if (!function_exists('cookie')) {
 
 if (!function_exists('download')) {
     /**
-     * 获取\frame\response\Download对象实例
+     * 获取\SeanPhp\response\Download对象实例
      * @param string $filename 要下载的文件
      * @param string $name 显示文件名
      * @param bool $content 是否为内容
      * @param int $expire 有效期（秒）
-     * @return \frame\response\File
+     * @return \SeanPhp\response\File
      */
     function download(string $filename, string $name = '', bool $content = false, int $expire = 180): File
     {
@@ -290,12 +290,12 @@ if (!function_exists('invoke')) {
 
 if (!function_exists('json')) {
     /**
-     * 获取\frame\response\Json对象实例
+     * 获取\SeanPhp\response\Json对象实例
      * @param mixed $data 返回的数据
      * @param int $code 状态码
      * @param array $header 头部
      * @param array $options 参数
-     * @return \frame\response\Json
+     * @return \SeanPhp\response\Json
      */
     function json($data = [], $code = 200, $header = [], $options = []): Json
     {
@@ -305,12 +305,12 @@ if (!function_exists('json')) {
 
 if (!function_exists('jsonp')) {
     /**
-     * 获取\frame\response\Jsonp对象实例
+     * 获取\SeanPhp\response\Jsonp对象实例
      * @param mixed $data 返回的数据
      * @param int $code 状态码
      * @param array $header 头部
      * @param array $options 参数
-     * @return \frame\response\Jsonp
+     * @return \SeanPhp\response\Jsonp
      */
     function jsonp($data = [], $code = 200, $header = [], $options = []): Jsonp
     {
@@ -357,10 +357,10 @@ if (!function_exists('parse_name')) {
 
 if (!function_exists('redirect')) {
     /**
-     * 获取\frame\response\Redirect对象实例
+     * 获取\SeanPhp\response\Redirect对象实例
      * @param string $url 重定向地址
      * @param int $code 状态码
-     * @return \frame\response\Redirect
+     * @return \SeanPhp\response\Redirect
      */
     function redirect(string $url = '', int $code = 302): Redirect
     {
@@ -373,7 +373,7 @@ if (!function_exists('request')) {
      * 获取当前Request对象实例
      * @return Request
      */
-    function request(): \frame\Request
+    function request(): \SeanPhp\Request
     {
         return app('request');
     }
@@ -538,7 +538,7 @@ if (!function_exists('view')) {
      * @param array $vars 模板变量
      * @param int $code 状态码
      * @param callable $filter 内容过滤
-     * @return \frame\response\View
+     * @return \SeanPhp\response\View
      */
     function view(string $template = '', $vars = [], $code = 200, $filter = null): View
     {
@@ -553,7 +553,7 @@ if (!function_exists('display')) {
      * @param array $vars 模板变量
      * @param int $code 状态码
      * @param callable $filter 内容过滤
-     * @return \frame\response\View
+     * @return \SeanPhp\response\View
      */
     function display(string $content, $vars = [], $code = 200, $filter = null): View
     {
@@ -563,12 +563,12 @@ if (!function_exists('display')) {
 
 if (!function_exists('xml')) {
     /**
-     * 获取\frame\response\Xml对象实例
+     * 获取\SeanPhp\response\Xml对象实例
      * @param mixed $data 返回的数据
      * @param int $code 状态码
      * @param array $header 头部
      * @param array $options 参数
-     * @return \frame\response\Xml
+     * @return \SeanPhp\response\Xml
      */
     function xml($data = [], $code = 200, $header = [], $options = []): Xml
     {

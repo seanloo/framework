@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\log\driver;
+namespace SeanPhp\log\driver;
 
-use frame\App;
-use frame\contract\LogHandlerInterface;
+use SeanPhp\App;
+use SeanPhp\contract\LogHandlerInterface;
 
 /**
  * 本地化调试输出到文件

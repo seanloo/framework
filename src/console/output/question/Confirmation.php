@@ -1,9 +1,9 @@
 <?php
 
 
-namespace frame\console\output\question;
+namespace SeanPhp\console\output\question;
 
-use frame\console\output\Question;
+use SeanPhp\console\output\Question;
 
 class Confirmation extends Question
 {

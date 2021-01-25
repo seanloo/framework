@@ -2,12 +2,12 @@
 
 declare (strict_types=1);
 
-namespace frame\view\driver;
+namespace SeanPhp\view\driver;
 
-use frame\App;
-use frame\helper\Str;
-use frame\Template;
-use frame\template\exception\TemplateNotFoundException;
+use SeanPhp\App;
+use SeanPhp\helper\Str;
+use SeanPhp\Template;
+use SeanPhp\template\exception\TemplateNotFoundException;
 
 class Php
 {

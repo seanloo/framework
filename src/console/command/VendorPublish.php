@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\console\command;
+namespace SeanPhp\console\command;
 
-use frame\console\Command;
-use frame\console\input\Option;
+use SeanPhp\console\Command;
+use SeanPhp\console\input\Option;
 
 class VendorPublish extends Command
 {

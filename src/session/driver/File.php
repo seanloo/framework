@@ -2,15 +2,15 @@
 
 declare (strict_types = 1);
 
-namespace frame\session\driver;
+namespace SeanPhp\session\driver;
 
 use Closure;
 use Exception;
 use FilesystemIterator;
 use Generator;
 use SplFileInfo;
-use frame\App;
-use frame\contract\SessionHandlerInterface;
+use SeanPhp\App;
+use SeanPhp\contract\SessionHandlerInterface;
 
 /**
  * Session 文件驱动

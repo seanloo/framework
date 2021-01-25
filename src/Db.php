@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 /**
  * 数据库管理类

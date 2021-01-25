@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\log\driver;
+namespace SeanPhp\log\driver;
 
 use Psr\Container\NotFoundExceptionInterface;
-use frame\App;
-use frame\contract\LogHandlerInterface;
+use SeanPhp\App;
+use SeanPhp\contract\LogHandlerInterface;
 
 /**
  * github: https://github.com/luofei614/SocketLog

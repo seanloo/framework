@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\contract;
+namespace SeanPhp\contract;
 
 /**
  * 日志驱动接口

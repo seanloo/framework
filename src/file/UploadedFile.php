@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\file;
+namespace SeanPhp\file;
 
-use frame\exception\FileException;
-use frame\File;
+use SeanPhp\exception\FileException;
+use SeanPhp\File;
 
 class UploadedFile extends File
 {

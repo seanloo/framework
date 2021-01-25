@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use InvalidArgumentException;
-use frame\filesystem\Driver;
-use frame\filesystem\driver\Local;
-use frame\helper\Arr;
+use SeanPhp\filesystem\Driver;
+use SeanPhp\filesystem\driver\Local;
+use SeanPhp\helper\Arr;
 
 /**
  * Class Filesystem
@@ -17,7 +17,7 @@ use frame\helper\Arr;
  */
 class Filesystem extends Manager
 {
-    protected $namespace = '\\frame\\filesystem\\driver\\';
+    protected $namespace = '\\SeanPhp\\filesystem\\driver\\';
 
     /**
      * @param null|string $name

@@ -1,8 +1,8 @@
 <?php
 
-namespace frame\app;
+namespace SeanPhp\app;
 
-use frame\Service as BaseService;
+use SeanPhp\Service as BaseService;
 
 class Service extends BaseService
 {
@@ -15,7 +15,7 @@ class Service extends BaseService
         ]);
 
         $this->app->bind([
-            'frame\route\Url' => Url::class,
+            'SeanPhp\route\Url' => Url::class,
         ]);
     }
 }

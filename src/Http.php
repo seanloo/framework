@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
-use frame\event\HttpEnd;
-use frame\event\HttpRun;
-use frame\event\RouteLoaded;
-use frame\exception\Handle;
+use SeanPhp\event\HttpEnd;
+use SeanPhp\event\HttpRun;
+use SeanPhp\event\RouteLoaded;
+use SeanPhp\exception\Handle;
 use Throwable;
 
 /**

@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\response;
+namespace SeanPhp\response;
 
-use frame\Collection;
-use frame\Cookie;
-use frame\Model;
-use frame\Response;
+use SeanPhp\Collection;
+use SeanPhp\Cookie;
+use SeanPhp\Model;
+use SeanPhp\Response;
 
 /**
  * XML Response

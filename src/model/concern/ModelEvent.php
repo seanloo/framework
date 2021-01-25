@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\model\concern;
+namespace SeanPhp\model\concern;
 
-use frame\db\exception\ModelEventException;
-use frame\helper\Str;
+use SeanPhp\db\exception\ModelEventException;
+use SeanPhp\helper\Str;
 
 /**
  * 模型事件处理

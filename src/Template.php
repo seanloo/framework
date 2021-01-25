@@ -2,7 +2,7 @@
 
 declare (strict_types=1);
 
-namespace frame;
+namespace SeanPhp;
 
 use Exception;
 use Psr\SimpleCache\CacheInterface;
@@ -105,7 +105,7 @@ class Template
 
         // 初始化模板编译存储器
         $type = $this->config['compile_type'] ? $this->config['compile_type'] : 'File';
-        $class = false !== strpos($type, '\\') ? $type : '\\frame\\template\\driver\\' . ucwords($type);
+        $class = false !== strpos($type, '\\') ? $type : '\\SeanPhp\\template\\driver\\' . ucwords($type);
 
         $this->storage = new $class();
     }
@@ -850,7 +850,7 @@ class Template
             $className = $tagLib;
             $tagLib = substr($tagLib, strrpos($tagLib, '\\') + 1);
         } else {
-            $className = '\\frame\\template\\taglib\\' . ucwords($tagLib);
+            $className = '\\SeanPhp\\template\\taglib\\' . ucwords($tagLib);
         }
 
         $tLib = new $className($this);

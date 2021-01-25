@@ -1,12 +1,12 @@
 <?php
 
-namespace frame\console\command\optimize;
+namespace SeanPhp\console\command\optimize;
 
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\input\Argument;
-use frame\console\Output;
-use frame\event\RouteLoaded;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Argument;
+use SeanPhp\console\Output;
+use SeanPhp\event\RouteLoaded;
 
 class Route extends Command
 {

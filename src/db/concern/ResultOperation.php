@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\concern;
+namespace SeanPhp\db\concern;
 
-use frame\Collection;
-use frame\db\exception\DataNotFoundException;
-use frame\db\exception\ModelNotFoundException;
-use frame\helper\Str;
+use SeanPhp\Collection;
+use SeanPhp\db\exception\DataNotFoundException;
+use SeanPhp\db\exception\ModelNotFoundException;
+use SeanPhp\helper\Str;
 
 /**
  * 查询数据处理

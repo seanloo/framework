@@ -3,7 +3,7 @@ declare (strict_types = 1);
 
 namespace {%namespace%};
 
-class {%className%} extends \frame\Service
+class {%className%} extends \SeanPhp\Service
 {
     /**
      * 注册服务

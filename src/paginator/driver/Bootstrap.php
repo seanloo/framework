@@ -1,9 +1,9 @@
 <?php
 
 
-namespace frame\paginator\driver;
+namespace SeanPhp\paginator\driver;
 
-use frame\Paginator;
+use SeanPhp\Paginator;
 
 /**
  * Bootstrap 分页驱动

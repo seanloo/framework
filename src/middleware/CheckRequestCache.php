@@ -2,13 +2,13 @@
 
 declare (strict_types = 1);
 
-namespace frame\middleware;
+namespace SeanPhp\middleware;
 
 use Closure;
-use frame\Cache;
-use frame\Config;
-use frame\Request;
-use frame\Response;
+use SeanPhp\Cache;
+use SeanPhp\Config;
+use SeanPhp\Request;
+use SeanPhp\Response;
 
 /**
  * 请求缓存处理

@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use InvalidArgumentException;
-use frame\helper\Str;
+use SeanPhp\helper\Str;
 
 abstract class Manager
 {

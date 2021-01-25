@@ -1,13 +1,13 @@
 <?php
 
-namespace frame\console\command\optimize;
+namespace SeanPhp\console\command\optimize;
 
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\input\Argument;
-use frame\console\input\Option;
-use frame\console\Output;
-use frame\db\PDOConnection;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Argument;
+use SeanPhp\console\input\Option;
+use SeanPhp\console\Output;
+use SeanPhp\db\PDOConnection;
 
 class Schema extends Command
 {
@@ -69,8 +69,8 @@ class Schema extends Command
     protected function buildModelSchema(string $class): void
     {
         $reflect = new \ReflectionClass($class);
-        if (!$reflect->isAbstract() && $reflect->isSubclassOf('\frame\Model')) {
-            /** @var \frame\Model $model */
+        if (!$reflect->isAbstract() && $reflect->isSubclassOf('\SeanPhp\Model')) {
+            /** @var \SeanPhp\Model $model */
             $model      = new $class;
             $connection = $model->db()->getConnection();
             if ($connection instanceof PDOConnection) {

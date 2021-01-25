@@ -2,16 +2,16 @@
 
 declare (strict_types = 1);
 
-namespace frame\console;
+namespace SeanPhp\console;
 
 use Exception;
 use InvalidArgumentException;
 use LogicException;
-use frame\App;
-use frame\Console;
-use frame\console\input\Argument;
-use frame\console\input\Definition;
-use frame\console\input\Option;
+use SeanPhp\App;
+use SeanPhp\Console;
+use SeanPhp\console\input\Argument;
+use SeanPhp\console\input\Definition;
+use SeanPhp\console\input\Option;
 
 abstract class Command
 {

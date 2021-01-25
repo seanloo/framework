@@ -1,6 +1,6 @@
 <?php
 
-namespace frame\contract;
+namespace SeanPhp\contract;
 
 interface Jsonable
 {

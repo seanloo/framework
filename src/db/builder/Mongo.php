@@ -1,7 +1,7 @@
 <?php
 
 declare (strict_types = 1);
-namespace frame\db\builder;
+namespace SeanPhp\db\builder;
 
 use MongoDB\BSON\Javascript;
 use MongoDB\BSON\ObjectID;
@@ -10,9 +10,9 @@ use MongoDB\Driver\BulkWrite;
 use MongoDB\Driver\Command;
 use MongoDB\Driver\Exception\InvalidArgumentException;
 use MongoDB\Driver\Query as MongoQuery;
-use frame\db\connector\Mongo as Connection;
-use frame\db\exception\DbException as Exception;
-use frame\db\Mongo as Query;
+use SeanPhp\db\connector\Mongo as Connection;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\db\Mongo as Query;
 
 class Mongo
 {

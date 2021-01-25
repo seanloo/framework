@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\response;
+namespace SeanPhp\response;
 
-use frame\Cookie;
-use frame\Response;
-use frame\View as BaseView;
+use SeanPhp\Cookie;
+use SeanPhp\Response;
+use SeanPhp\View as BaseView;
 
 /**
  * View Response

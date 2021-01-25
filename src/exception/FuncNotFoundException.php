@@ -1,6 +1,6 @@
 <?php
 
-namespace frame\exception;
+namespace SeanPhp\exception;
 
 use Psr\Container\NotFoundExceptionInterface;
 use RuntimeException;

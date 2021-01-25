@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame\model\concern;
+namespace SeanPhp\model\concern;
 
-use frame\db\BaseQuery as Query;
+use SeanPhp\db\BaseQuery as Query;
 
 /**
  * 数据软删除

@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\db\exception;
+namespace SeanPhp\db\exception;
 
 /**
  * PDO异常处理类

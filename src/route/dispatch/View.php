@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\route\dispatch;
+namespace SeanPhp\route\dispatch;
 
-use frame\Response;
-use frame\route\Dispatch;
+use SeanPhp\Response;
+use SeanPhp\route\Dispatch;
 
 /**
  * View Dispatcher

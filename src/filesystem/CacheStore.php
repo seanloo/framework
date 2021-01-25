@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\filesystem;
+namespace SeanPhp\filesystem;
 
 use League\Flysystem\Cached\Storage\AbstractCache;
 use Psr\SimpleCache\CacheInterface;

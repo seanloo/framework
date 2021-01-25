@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 /**
  * 异常基础类

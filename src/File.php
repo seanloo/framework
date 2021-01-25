@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
 use SplFileInfo;
-use frame\exception\FileException;
+use SeanPhp\exception\FileException;
 
 /**
  * 文件上传类

@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\contract;
+namespace SeanPhp\contract;
 
 /**
  * 缓存驱动接口

@@ -1,10 +1,10 @@
 <?php
 
-namespace frame\session\driver;
+namespace SeanPhp\session\driver;
 
 use Psr\SimpleCache\CacheInterface;
-use frame\contract\SessionHandlerInterface;
-use frame\helper\Arr;
+use SeanPhp\contract\SessionHandlerInterface;
+use SeanPhp\helper\Arr;
 
 class Cache implements SessionHandlerInterface
 {
@@ -18,7 +18,7 @@ class Cache implements SessionHandlerInterface
     /** @var string */
     protected $prefix;
 
-    public function __construct(\frame\Cache $cache, array $config = [])
+    public function __construct(\SeanPhp\Cache $cache, array $config = [])
     {
         $this->handler = $cache->store(Arr::get($config, 'store'));
         $this->expire  = Arr::get($config, 'expire', 1440);

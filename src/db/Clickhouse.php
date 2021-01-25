@@ -2,14 +2,14 @@
 
 declare (strict_types=1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
 use ClickHouseDB\Query\Query as ClickHouseQuery;
 
-use frame\Collection;
-use frame\db\connector\Clickhouse as Connection;
-use frame\db\exception\DbException as Exception;
-use frame\Paginator;
+use SeanPhp\Collection;
+use SeanPhp\db\connector\Clickhouse as Connection;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\Paginator;
 
 class Clickhouse extends BaseQuery
 {

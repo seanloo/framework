@@ -2,10 +2,10 @@
 
 declare (strict_types = 1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
 use Psr\SimpleCache\CacheInterface;
-use frame\DbManager;
+use SeanPhp\DbManager;
 
 /**
  * Connection interface

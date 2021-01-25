@@ -2,13 +2,13 @@
 
 declare (strict_types=1);
 
-namespace frame;
+namespace SeanPhp;
 
-use frame\event\AppInit;
-use frame\helper\Str;
-use frame\initializer\BootService;
-use frame\initializer\Error;
-use frame\initializer\RegisterService;
+use SeanPhp\event\AppInit;
+use SeanPhp\helper\Str;
+use SeanPhp\initializer\BootService;
+use SeanPhp\initializer\Error;
+use SeanPhp\initializer\RegisterService;
 
 /**
  * App 基础类
@@ -157,9 +157,9 @@ class App extends Container
         'validate' => Validate::class,
         'view' => View::class,
         'filesystem' => Filesystem::class,
-        'frame\DbManager' => Db::class,
-        'frame\LogManager' => Log::class,
-        'frame\CacheManager' => Cache::class,
+        'SeanPhp\DbManager' => Db::class,
+        'SeanPhp\LogManager' => Log::class,
+        'SeanPhp\CacheManager' => Cache::class,
 
         // 接口依赖注入
         'Psr\Log\LoggerInterface' => Log::class,
@@ -184,7 +184,7 @@ class App extends Container
         static::setInstance($this);
 
         $this->instance('app', $this);
-        $this->instance('frame\Container', $this);
+        $this->instance('SeanPhp\Container', $this);
     }
 
     /**

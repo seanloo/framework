@@ -2,20 +2,20 @@
 
 declare (strict_types=1);
 
-namespace frame;
+namespace SeanPhp;
 
 use Closure;
-use frame\exception\RouteNotFoundException;
-use frame\route\Dispatch;
-use frame\route\dispatch\Callback;
-use frame\route\dispatch\Url as UrlDispatch;
-use frame\route\Domain;
-use frame\route\Resource;
-use frame\route\Rule;
-use frame\route\RuleGroup;
-use frame\route\RuleItem;
-use frame\route\RuleName;
-use frame\route\Url as UrlBuild;
+use SeanPhp\exception\RouteNotFoundException;
+use SeanPhp\route\Dispatch;
+use SeanPhp\route\dispatch\Callback;
+use SeanPhp\route\dispatch\Url as UrlDispatch;
+use SeanPhp\route\Domain;
+use SeanPhp\route\Resource;
+use SeanPhp\route\Rule;
+use SeanPhp\route\RuleGroup;
+use SeanPhp\route\RuleItem;
+use SeanPhp\route\RuleName;
+use SeanPhp\route\Url as UrlBuild;
 
 /**
  * 路由管理类

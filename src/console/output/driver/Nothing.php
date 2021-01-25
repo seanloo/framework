@@ -1,9 +1,9 @@
 <?php
 
 
-namespace frame\console\output\driver;
+namespace SeanPhp\console\output\driver;
 
-use frame\console\Output;
+use SeanPhp\console\Output;
 
 class Nothing
 {

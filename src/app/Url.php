@@ -2,11 +2,11 @@
 
 declare (strict_types = 1);
 
-namespace frame\app;
+namespace SeanPhp\app;
 
-use frame\App;
-use frame\Route;
-use frame\route\Url as UrlBuild;
+use SeanPhp\App;
+use SeanPhp\Route;
+use SeanPhp\route\Url as UrlBuild;
 
 /**
  * 路由地址生成

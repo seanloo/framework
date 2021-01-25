@@ -1,10 +1,10 @@
 <?php
 
 
-namespace frame\console\command\make;
+namespace SeanPhp\console\command\make;
 
-use frame\console\command\Make;
-use frame\console\input\Argument;
+use SeanPhp\console\command\Make;
+use SeanPhp\console\input\Argument;
 
 class Command extends Make
 {

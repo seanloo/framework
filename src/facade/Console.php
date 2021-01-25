@@ -2,19 +2,19 @@
 
 declare (strict_types = 1);
 
-namespace frame\facade;
+namespace SeanPhp\facade;
 
-use frame\Facade;
-use frame\console\Command;
-use frame\console\Input;
-use frame\console\input\Definition as InputDefinition;
-use frame\console\Output;
-use frame\console\output\driver\Buffer;
+use SeanPhp\Facade;
+use SeanPhp\console\Command;
+use SeanPhp\console\Input;
+use SeanPhp\console\input\Definition as InputDefinition;
+use SeanPhp\console\Output;
+use SeanPhp\console\output\driver\Buffer;
 
 /**
  * Class Console
- * @package frame\facade
- * @mixin \frame\Console
+ * @package SeanPhp\facade
+ * @mixin \SeanPhp\Console
  * @method static Output|Buffer call(string $command, array $parameters = [], string $driver = 'buffer')
  * @method static int run() 执行当前的指令
  * @method static int doRun(Input $input, Output $output) 执行指令

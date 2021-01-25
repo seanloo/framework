@@ -2,9 +2,9 @@
 
 declare (strict_types = 1);
 
-namespace frame;
+namespace SeanPhp;
 
-use frame\helper\Arr;
+use SeanPhp\helper\Arr;
 
 /**
  * 视图类
@@ -13,7 +13,7 @@ use frame\helper\Arr;
 class View extends Manager
 {
 
-    protected $namespace = '\\frame\\view\\driver\\';
+    protected $namespace = '\\SeanPhp\\view\\driver\\';
 
     /**
      * 模板变量

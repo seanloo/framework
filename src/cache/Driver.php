@@ -2,7 +2,7 @@
 
 declare (strict_types = 1);
 
-namespace frame\cache;
+namespace SeanPhp\cache;
 
 use Closure;
 use DateInterval;
@@ -10,9 +10,9 @@ use DateTime;
 use DateTimeInterface;
 use Exception;
 use Psr\SimpleCache\CacheInterface;
-use frame\Container;
-use frame\contract\CacheHandlerInterface;
-use frame\exception\InvalidArgumentException;
+use SeanPhp\Container;
+use SeanPhp\contract\CacheHandlerInterface;
+use SeanPhp\exception\InvalidArgumentException;
 use throwable;
 
 /**

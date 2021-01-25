@@ -2,13 +2,13 @@
 
 declare (strict_types=1);
 
-namespace frame\db\builder;
+namespace SeanPhp\db\builder;
 
 use ClickHouseDB\Query\Query as ClickHouseQuery;
 
-use frame\db\connector\Clickhouse as Connection;
+use SeanPhp\db\connector\Clickhouse as Connection;
 use ClickHouseDB\Exception\DatabaseException as Exception;
-use frame\db\Clickhouse as Query;
+use SeanPhp\db\Clickhouse as Query;
 
 class Clickhouse
 {

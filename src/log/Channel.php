@@ -2,12 +2,12 @@
 
 declare (strict_types = 1);
 
-namespace frame\log;
+namespace SeanPhp\log;
 
 use Psr\Log\LoggerInterface;
-use frame\contract\LogHandlerInterface;
-use frame\Event;
-use frame\event\LogWrite;
+use SeanPhp\contract\LogHandlerInterface;
+use SeanPhp\Event;
+use SeanPhp\event\LogWrite;
 
 class Channel implements LoggerInterface
 {

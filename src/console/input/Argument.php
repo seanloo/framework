@@ -1,7 +1,7 @@
 <?php
 
 
-namespace frame\console\input;
+namespace SeanPhp\console\input;
 
 class Argument
 {

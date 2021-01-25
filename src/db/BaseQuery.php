@@ -2,15 +2,15 @@
 
 declare (strict_types = 1);
 
-namespace frame\db;
+namespace SeanPhp\db;
 
-use frame\Collection;
-use frame\db\exception\DataNotFoundException;
-use frame\db\exception\DbException as Exception;
-use frame\db\exception\ModelNotFoundException;
-use frame\helper\Str;
-use frame\Model;
-use frame\Paginator;
+use SeanPhp\Collection;
+use SeanPhp\db\exception\DataNotFoundException;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\db\exception\ModelNotFoundException;
+use SeanPhp\helper\Str;
+use SeanPhp\Model;
+use SeanPhp\Paginator;
 
 /**
  * 数据查询基础类

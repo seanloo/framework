@@ -2,17 +2,17 @@
 
 declare (strict_types=1);
 
-namespace frame\db\connector;
+namespace SeanPhp\db\connector;
 
 use Closure;
 use ClickHouseDB\Client;
 
-use frame\db\BaseQuery;
-use frame\db\builder\Clickhouse as Builder;
-use frame\db\Connection;
-use frame\db\ConnectionInterface;
-use frame\db\exception\DbException as Exception;
-use frame\db\Clickhouse as Query;
+use SeanPhp\db\BaseQuery;
+use SeanPhp\db\builder\Clickhouse as Builder;
+use SeanPhp\db\Connection;
+use SeanPhp\db\ConnectionInterface;
+use SeanPhp\db\exception\DbException as Exception;
+use SeanPhp\db\Clickhouse as Query;
 
 /**
  * Clickhouse数据库驱动
